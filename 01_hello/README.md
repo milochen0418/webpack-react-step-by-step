@@ -17,3 +17,8 @@ $ vim index.html
 ## add index.js
 $ vim index.js
 
+## To build your bundle.js
+$ ./node_modules/.bin/webpack  
+Do you want to install 'webpack-cli' (yes/no): yes  
+
+
