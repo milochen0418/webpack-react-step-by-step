@@ -97,3 +97,8 @@ Reset all information of node package and web built result and reset and rebuild
 $ npm run help  
 
 
+
+
+# How to process  multiple-entry
+Refer the following of same github
+./more_examples/multiple-entry-points/
