@@ -1,0 +1,23 @@
+{
+  "name": "multiple-entry-points",
+  "version": "1.0.0",
+  "description": "This example shows how to use multiple entry points with a commons chunk.",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node:clean":"rm -rf ./node_modules && rm -f package-lock.json",
+    "web:clean": "rm -rf ./dist",
+    "web:build": "webpack",
+    "web:exec": "live-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "common": "^0.2.5",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
