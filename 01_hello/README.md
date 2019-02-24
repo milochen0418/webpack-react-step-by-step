@@ -1,7 +1,15 @@
-# webpack-hello
-webpack-hello is In the hello_01 project folder.  
-The code here show how to make a webpack hello project from zero.
-  
+# webpack concept
+## What is bundle.js  
+![What is bundle.js](https://github.com/milochen0418/github-readme-material/blob/master/webpack-react-step-by-step/hello_01/hello_01/picture_01.png)  
+## How to make a bundle.js  
+![how to make bundle.js](https://github.com/milochen0418/github-readme-material/blob/master/webpack-react-step-by-step/hello_01/hello_01/picture_02.png)  
+
+# webpack-hello project
+webpack-hello is In the hello_01 project folder.   
+The code here show how to make a webpack hello project from zero.  
+In this project , you can trace all of its commit code. so that you can    
+learn how to build a webpack hello project from zero.  
+
 # Easy Usage
 ## First time to use   
 After clone thr poejct  
