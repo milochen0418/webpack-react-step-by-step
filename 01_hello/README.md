@@ -1,5 +1,17 @@
-
-
+# webpack-hello
+webpack-hello is In the hello_01 project folder.  
+The code here show how to make a webpack hello project from zero.
+  
+# Easy Usage
+## First time to use   
+After clone thr poejct  
+$ npm run reboot  
+Then you can open your browser to see how to is running  
+##  keep going to development
+Everytime when you change the code  you can do   
+$ npm run web:reboot   
+And open browser to see your new result for currently source code    
+(Self manaual refresh on your browser   )
 
 # Development note
 ## init project
