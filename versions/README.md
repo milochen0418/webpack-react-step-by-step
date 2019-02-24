@@ -2,6 +2,6 @@
 Hello world for webpack. the most simple version of webpack
 
 # ver_00_02
-Seperate the code to react_app and index.html teamplte
+Seperate the codes of react_app and index.html template
 
 
