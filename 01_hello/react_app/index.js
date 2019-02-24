@@ -1,1 +1,1 @@
-alert("Hello, again!");
+alert("Hello, react app JavaScript entry say Hello");

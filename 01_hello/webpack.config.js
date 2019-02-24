@@ -1,10 +1,10 @@
-
+const path = require('path');
 module.exports = {
-	entry:  {
-		app: './index.js',
-	},
+	context: path.resolve(__dirname, 'react_app'),
+	entry:  './index.js',
 	output: {
-		filename: './bundle.js',
+		path: path.resolve(__dirname, 'dist'),
+		filename: 'bundle.js',
 	},
 };
 
