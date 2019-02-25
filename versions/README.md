@@ -16,6 +16,6 @@ Seperate the codes of react_app and index.html template
 (4) web:exec --> live-server --wait=[TIME_ms]  . TIME_ms need  > bundle.js building time     
 
 
-# ver_00_05 Add raw template html of babel ES5/ES6 and JSX of React
-With the new raw_template_html, you can understand how JSX, React and ES5/ES6 work first,   
+# ver_00_05 Add raw template html of babel ES5/ES6 , JSX of React  and TypeScript
+With the new raw_template_html, you can understand how TypeScript , JSX,  React and ES5/ES6 work first,   
 So that you can easily to understand what happen if you use it in webpack when you start to use webpack.    

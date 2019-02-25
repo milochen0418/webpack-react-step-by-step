@@ -2,20 +2,22 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Hello React! JSX </title>
+    <title>Hello React! JSX & React</title>
     <!-- 請先於 index.html 中引入 react.js, react-dom.js 和 babel-core 的 browser.min.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.0.1/react-dom.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
   </head>
   <body>
-    <div id="example"></div>
+	  <div id="example"><h1> Hello JSX ~~~</h1> </div>
+	  <div id="drawable"></div>
     <script type="text/babel">
       // Fully ES5/ES6 with JSX of React
       ReactDOM.render(
-        <h1>Hello, world! Using React and JSX </h1>,
-        document.getElementById('example')
+        <h2> Drawing JSX by ReactDOM </h2>,
+        document.getElementById('drawable')
       );
+      console.log("Render setup done");
     </script>
   </body>
 </html>
