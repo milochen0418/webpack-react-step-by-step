@@ -1,0 +1,28 @@
+{
+  "name": "webpack-hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node:clean": "rm -rf ./node_modules && rm -f ./package-lock.json",
+    "node:install": "npm install",
+    "node:reboot": "npm run node:clean && npm run node:install ",
+    "web:clean": "rm -rf ./dist",
+    "web:build": "webpack",
+    "web:watch": "webpack --watch",
+    "web:exec": "live-server --wait=500",
+    "web:reboot": "npm run web:clean && npm run web:build && npm run web:exec",
+    "reboot": "npm run node:reboot && npm run web:reboot",
+    "clean": "npm run node:clean && npm run web:clean",
+    "help": "cat ./package.json | jq '.scripts'"
+  },
+  "author": "Milo Chen",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
+}

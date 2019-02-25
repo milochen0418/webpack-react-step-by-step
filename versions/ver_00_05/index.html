@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello Webpack</title>
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+   <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+
+    </head>
+    <body>
+        <h3>
+            Hello World, Webpack
+        </h3>
+   <div id='root1'>
+      click me of root1
+   </div>
+   <div id='root2' >
+      click me or root2
+   </div>
+	   <div>
+	   <a href='raw_template_html'>Open another Raw Template</a>
+	   </div>
+
+    </body>
+    <script>document.write('<script type="text/javascript" src="dist/bundle.js?dev=' + Math.floor(Math.random() * 1000000) + '"\><\/script>');</script>
+    <script type='text/babel'>
+      class Point {
+         constructor(x, y) {
+            this.x = x;
+            this.y = y;
+         }
+         toString() {
+            return '(' + this.x + ', ' + this.y + ')';
+         }
+      }
+
+      function f_ES5() {
+         console.log('ES5 Style');
+      }
+
+      var arrs = [1, 2, 3, 4, 5, 6];
+      var array = arrs.filter(obj => obj > 3);
+
+      console.log(arrs);
+      console.log(array);
+
+      var p = new Point('X-axis', 'Y-axis');
+      console.log(p);
+      const name = 'Milo Three';
+      console.log(name);
+      f_ES5();
+
+       
+    </script>
+</html>
+
