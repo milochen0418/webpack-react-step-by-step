@@ -9,13 +9,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
   </head>
   <body>
-    <div id="example"></div>
+	  <div id="example"><h1> Hello JSX ~~~</h1> </div>
+	  <div id="drawable"></div>
     <script type="text/babel">
       // Fully ES5/ES6 with JSX of React
       ReactDOM.render(
-        <h1>Hello, world! Using React and JSX </h1>,
-        document.getElementById('example')
+        <h2> Drawing JSX by ReactDOM </h2>,
+        document.getElementById('drawable')
       );
+      console.log("Render setup done");
     </script>
   </body>
 </html>
