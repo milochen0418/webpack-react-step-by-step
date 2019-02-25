@@ -5,7 +5,7 @@
   "main": "build.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "node:clean":"rm -rf ./node_modules && rm -f package-lock.json",
+    "node:clean": "rm -rf ./node_modules && rm -f package-lock.json",
     "web:clean": "rm -rf ./dist",
     "web:build": "webpack",
     "web:exec": "live-server"
@@ -13,11 +13,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "common": "^0.2.5",
     "webpack": "^4.29.5",
     "webpack-cli": "^3.2.3"
   },
   "dependencies": {
-    "live-server": "^1.2.1"
+    "child_process": "^1.0.2",
+    "fs": "0.0.1-security",
+    "live-server": "^1.2.1",
+    "neo-async": "^2.6.0",
+    "path": "^0.12.7"
   }
 }
