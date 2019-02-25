@@ -102,3 +102,14 @@ $ npm run help
 # How to process  multiple-entry
 Refer the following of same github
 ./more_examples/multiple-entry-points/
+
+
+# How to dynamice change website when you change index.html and js in react_app
+$ npm run web:watch   
+$ npm run web:exec  
+Open browser to open page (please refresh if you rerun web:exec)    
+Then you can try to cnaghe the code ./reac_app or index.html.    
+And you will see browser content is change.     
+The command can see help file of $ live-server --help     
+We use $ live-server --wait=200 is because wait webpack to build bundle.js and we assume its build time is 200ms  
+If your build time is very long , then just change the wait time more long  
