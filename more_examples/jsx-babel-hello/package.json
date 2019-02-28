@@ -4,14 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": ".\\node_modules\\.bin\\webpack",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.3.4",
-    "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.5",
     "webpack": "^3.10.0"
   }
